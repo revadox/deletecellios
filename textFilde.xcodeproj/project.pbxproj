@@ -14,6 +14,7 @@
 		7D46E6201FFA0A9000CD10F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D46E61E1FFA0A9000CD10F6 /* LaunchScreen.storyboard */; };
 		7D46E62B1FFA0A9100CD10F6 /* textFildeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E62A1FFA0A9100CD10F6 /* textFildeTests.swift */; };
 		7D46E6361FFA0A9100CD10F6 /* textFildeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E6351FFA0A9100CD10F6 /* textFildeUITests.swift */; };
+		7D46E6441FFA0E3100CD10F6 /* TextInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46E6431FFA0E3100CD10F6 /* TextInputTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7D46E6311FFA0A9100CD10F6 /* textFildeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textFildeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D46E6351FFA0A9100CD10F6 /* textFildeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFildeUITests.swift; sourceTree = "<group>"; };
 		7D46E6371FFA0A9100CD10F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D46E6431FFA0E3100CD10F6 /* TextInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7D46E6151FFA0A9000CD10F6 /* AppDelegate.swift */,
+				7D46E6431FFA0E3100CD10F6 /* TextInputTableViewCell.swift */,
 				7D46E6171FFA0A9000CD10F6 /* ViewController.swift */,
 				7D46E6191FFA0A9000CD10F6 /* Main.storyboard */,
 				7D46E61C1FFA0A9000CD10F6 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D46E6181FFA0A9000CD10F6 /* ViewController.swift in Sources */,
+				7D46E6441FFA0E3100CD10F6 /* TextInputTableViewCell.swift in Sources */,
 				7D46E6161FFA0A9000CD10F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
